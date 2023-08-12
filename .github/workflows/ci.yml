@@ -17,7 +17,7 @@ jobs:
         run: |
           npm install
           npm ci
-          npm run build:stage
+          npm run build:prod
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
